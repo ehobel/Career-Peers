@@ -18,23 +18,24 @@
 }
 
 body {
-  /*background-color: #AAA139;*/
-  /*color: #FFF8AA;*/ 
+  background-color: #9884D6;
+  color: #380DC0; 
 }
 
 h1 {
    font-family: "Leckerli One",cursive;
    font-weight: bold;
    font-size: 300%;
-   /*color: #D4CC6A;*/
+   color: #380DC0;
+   text-decoration: underline;
 }
 
 .navbar{
- /* background-color: #807715;*/
+  background-color: #BEB1EB;
 }
 
 .a {
- /* background-color: #807715;*/
+  background-color: #BEB1EB;
 }
 
 .row {
@@ -51,5 +52,29 @@ text-align: center;
 
 h1 small{
   font-size: 40%;
-  /*color: #FFF8AA; */
+  color: #745EBC; 
 }
+/* unvisited link */
+a:link {
+    color: #380DC0;
+}
+
+/* visited link */
+a:visited {
+    color: #6A47DA;
+}
+.btn{
+  background-color: #BEB1EB;
+   border-color: #380DC0;
+}
+.glyphicon{
+  color: #380DC0;
+}
+
+.teamlist {
+text-align: left;
+margin-left: 13%;
+background-color: white;
+margin-right: 15%;
+}
+
